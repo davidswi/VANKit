@@ -12,8 +12,10 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7D11E9E33617AD807C43AA5B /* Pods_VANKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592D377FD125BF7BD93E3A95 /* Pods_VANKit_Example.framework */; };
+		97908D5520892C4B008CB28B /* AlamoVANClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97908D4C2089207B008CB28B /* AlamoVANClientTests.swift */; };
+		97908D5720892C4B008CB28B /* VANPaginationOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97908D4F2089207B008CB28B /* VANPaginationOperationTests.swift */; };
+		97908D5820892C4B008CB28B /* VANPersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97908D502089207B008CB28B /* VANPersonTests.swift */; };
 		D52D01EB4E0822EBA9450629 /* Pods_VANKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EC3E13ACDAFF5F2A4593FE /* Pods_VANKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		13E53AB4B8B0E1F00F655224 /* Pods-VANKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VANKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VANKit_Tests/Pods-VANKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2D7EC04D9D7C4CF12627AA25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2D7EC04D9D7C4CF12627AA25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3D462AF223C781193ADF9D9F /* Pods-VANKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VANKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VANKit_Tests/Pods-VANKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49EC3E13ACDAFF5F2A4593FE /* Pods_VANKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VANKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		592D377FD125BF7BD93E3A95 /* Pods_VANKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VANKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,10 +44,12 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* VANKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VANKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D99D972A51C486C7C68CB33 /* Pods-VANKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VANKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-VANKit_Example/Pods-VANKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		83FA7A92D30F4C4B08ADD444 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BACB69CD2A658E86B5FBB3A7 /* VANKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VANKit.podspec; path = ../VANKit.podspec; sourceTree = "<group>"; };
+		83FA7A92D30F4C4B08ADD444 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97908D4C2089207B008CB28B /* AlamoVANClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamoVANClientTests.swift; sourceTree = "<group>"; };
+		97908D4F2089207B008CB28B /* VANPaginationOperationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VANPaginationOperationTests.swift; sourceTree = "<group>"; };
+		97908D502089207B008CB28B /* VANPersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VANPersonTests.swift; sourceTree = "<group>"; };
+		BACB69CD2A658E86B5FBB3A7 /* VANKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VANKit.podspec; path = ../VANKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F10126BFFF4497C28FF63AAB /* Pods-VANKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VANKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VANKit_Example/Pods-VANKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +119,9 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				97908D4C2089207B008CB28B /* AlamoVANClientTests.swift */,
+				97908D4F2089207B008CB28B /* VANPaginationOperationTests.swift */,
+				97908D502089207B008CB28B /* VANPersonTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -271,10 +277,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-VANKit_Example/Pods-VANKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/VANKit/VANKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VANKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,9 +298,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VANKit_Tests/Pods-VANKit_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/VANKit/VANKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VANKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -379,7 +396,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				97908D5520892C4B008CB28B /* AlamoVANClientTests.swift in Sources */,
+				97908D5720892C4B008CB28B /* VANPaginationOperationTests.swift in Sources */,
+				97908D5820892C4B008CB28B /* VANPersonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

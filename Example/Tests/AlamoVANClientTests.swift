@@ -17,7 +17,7 @@ class VANKitTests: XCTestCase {
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        apiClient = VANAPI(baseURL: "https://api.securevan.com/v4", appName: "PJTest", appUUID: "BDA69E4A-C2D8-4E53-8704-99B8770453AB")
+        apiClient = VANAPI(baseURL: "https://api.securevan.com/v4", appName: "YOUR_APP_ID", appUUID: "YOUR_APP_UUID")
         testComplete = false
     }
     
@@ -28,7 +28,7 @@ class VANKitTests: XCTestCase {
     
     func testFindVoterInVoterFile() {
         let voter : VANPerson = VANPerson(firstName: "David", lastName: "Switzer")
-        voter.phoneNumber = "425-753-2102"
+        voter.phoneNumber = "202-555-1212"
         apiClient?.mode = VANAPIMode.VoterFile
         apiClient?.findVoter(voter: voter, completion: { (vanId : Int?, error : Error?) in
             XCTAssertNotNil(vanId)
@@ -41,9 +41,9 @@ class VANKitTests: XCTestCase {
     
     func testFindVoterInMyCampaign() {
         let voter : VANPerson = VANPerson(firstName: "David", lastName: "Switzer")
-        voter.emailAddress = "davishe@gmail.com"
-        voter.phoneNumber = "425-753-2102"
-        voter.zipCode = "98122"
+        voter.emailAddress = "redacted@gmail.com"
+        voter.phoneNumber = "202-555-1212"
+        voter.zipCode = "89817"
         apiClient?.mode = VANAPIMode.MyCampaign
         apiClient?.findVoter(voter: voter, completion: { (vanId : Int?, error : Error?) in
             XCTAssertNotNil(vanId)
