@@ -1,5 +1,5 @@
 //
-//  VANKit.swift
+//  VANAPITests.swift
 //  VANKit
 //
 //  Created by David Switzer on 1/18/18.
