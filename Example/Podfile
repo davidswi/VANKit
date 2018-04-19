@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VANKit_Example' do
+  pod 'VANKit', :path => '../'
+
+  target 'VANKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
