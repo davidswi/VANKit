@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  VANKit
 //
-//  Created by david.switzer on 04/19/2018.
-//  Copyright (c) 2018 david.switzer. All rights reserved.
+//  Created by Madison Labs on 04/19/2018.
+//  Copyright (c) 2018 Madison Labs. All rights reserved.
 //
 
 import UIKit

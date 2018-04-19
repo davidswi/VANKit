@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (4.6.0)
+  - SwiftyJSON (4.0.0)
+  - VANKit (0.1.0):
+    - Alamofire
+    - SwiftyJSON
+
+DEPENDENCIES:
+  - VANKit (from `../`)
+
+EXTERNAL SOURCES:
+  VANKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  VANKit: 1c283e7bad45b3ce38a736b06c438c230d16d073
+
+PODFILE CHECKSUM: 562a90a2c9635c8b781af7406fd148b994e0fdee
+
+COCOAPODS: 1.4.0

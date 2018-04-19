@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VANKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of VANKit.'
+  s.summary          = 'Swift framework for accessing the NGP VAN API.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,12 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/david.switzer/VANKit'
+  s.homepage         = 'https://github.com/davidswi/VANKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'david.switzer' => 'daveswitzer@monoclesociety.com' }
-  s.source           = { :git => 'https://github.com/david.switzer/VANKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Madison Labs' => 'davishke@gmail.com' }
+  s.source           = { :git => 'https://github.com/davidswi/VANKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
@@ -36,7 +35,8 @@ TODO: Add long description of the pod here.
   #   'VANKit' => ['VANKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire'
+  s.dependency 'SwiftyJSON'
 end
